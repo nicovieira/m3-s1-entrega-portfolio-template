@@ -1,0 +1,22 @@
+@import url("src/styles/global.style.scss");
+@import url("src/styles/reset.scss");
+
+.technologie {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  border: 0.25px solid var(--white);
+  padding: 25px;
+  border-radius: 25px;
+  width: 180px;
+  height: 20px;
+
+  h3 {
+    font-size: var(--title-small);
+  }
+  img {
+    width: max-content;
+    height: max-content;
+  }
+}

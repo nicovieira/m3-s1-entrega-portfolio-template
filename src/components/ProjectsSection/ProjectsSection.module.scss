@@ -1,0 +1,23 @@
+@import url("src/styles/global.style.scss");
+@import url("src/styles/reset.scss");
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  margin-top: 75px;
+
+  display: flex;
+  h1 {
+    position: relative;
+    right: 350px;
+    color: var(--white);
+
+    font-size: var(--title-medium);
+    font-family: var(--main-font);
+    font-weight: var(--title-weight);
+  }
+}

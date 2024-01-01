@@ -1,0 +1,45 @@
+@import url("src/styles/global.style.scss");
+@import url("src/styles/reset.scss");
+
+.header {
+  font-family: var(--main-font);
+
+  color: var(--white);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 23.4375rem;
+
+  padding: 0.625rem;
+
+  img {
+    width: 4.4186rem;
+    height: 0.867rem;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 6.25rem;
+  }
+
+  button {
+    font-family: var(--main-font);
+    font-size: var(--label-size);
+
+    background: var(--color-primary);
+    color: var(--white);
+
+    width: 7.1875rem;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+
+    border: none;
+
+    &:hover {
+      cursor: pointer;
+      background: var(--color-primary-hover);
+    }
+  }
+}

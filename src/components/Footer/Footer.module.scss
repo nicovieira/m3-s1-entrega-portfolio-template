@@ -1,0 +1,48 @@
+@import url("src/styles/global.style.scss");
+@import url("src/styles/reset.scss");
+
+.footer {
+  border-top: 1px solid var(--white);
+  border-bottom: 1px solid var(--white);
+
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+
+  padding: 25px;
+  margin-bottom: 75px;
+  margin-top: 75px;
+
+  position: relative;
+  left: 480px;
+
+  h3 {
+    color: var(--white);
+
+    font-family: var(--main-font);
+    font-size: var(--title-large);
+    font-weight: var(--title-weight);
+
+    width: max-content;
+  }
+
+  p {
+    color: var(--white);
+    font-family: var(--main-font);
+    position: relative;
+    left: 575px;
+    width: max-content;
+    line-height: 30px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: max-content;
+    img {
+      width: 22px;
+      height: 22px;
+    }
+  }
+}

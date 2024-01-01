@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+:root {
+  --color-primary: #6880ff;
+  --color-primary-hover: #7c91ff;
+
+  --black: #000000;
+  --white: #ffffff;
+
+  --main-font: "Inter", sans-serif;
+
+  --title-weight: bold;
+  --text-weight: regular;
+
+  --title-large: 48px;
+  --title-medium: 40px;
+  --title-small: 22px;
+
+  --title-large-mobile: 42px;
+  --title-medium-mobile: 36px;
+  --title-small-mobile: 22px;
+
+  --label-size: 14px;
+  --label-weight: regular;
+
+  --link-size: 16px;
+  --link-weight: bold;
+
+  --text-size: 16px;
+}

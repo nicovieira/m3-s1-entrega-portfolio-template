@@ -22,3 +22,54 @@
     width: max-content;
   }
 }
+
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 1024px) {
+  .tech {
+    ul {
+      li {
+        width: 140px;
+        gap: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .tech {
+    .card {
+      position: relative;
+      left: 75px;
+    }
+    h1 {
+      left: 75px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .tech {
+    h1 {
+      font-size: 50px;
+    }
+    ul {
+      flex-direction: column;
+      position: relative;
+      left: 150px;
+      li {
+        width: 360px;
+        padding: 50px;
+        gap: 20px;
+        img {
+          width: 40px;
+          height: 45px;
+        }
+        h3 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}

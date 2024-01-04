@@ -43,3 +43,60 @@
     }
   }
 }
+
+@media (max-width: 1440px) {
+  .header {
+    gap: 50px;
+
+    nav {
+      gap: 50px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    gap: 50px;
+
+    nav {
+      gap: 50px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    position: relative;
+    left: 100px;
+
+    nav {
+      gap: 50px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    margin-top: 25px;
+
+    position: relative;
+    left: 150px;
+    flex-direction: column;
+    padding: 0px;
+    gap: 25px;
+    img {
+      width: 150px;
+      height: 30px;
+    }
+    nav {
+      gap: 50px;
+      p {
+        font-size: 25px;
+      }
+    }
+    button {
+      font-size: 22px;
+      width: 150px;
+    }
+  }
+}

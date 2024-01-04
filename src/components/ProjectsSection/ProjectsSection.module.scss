@@ -21,3 +21,50 @@
     font-weight: var(--title-weight);
   }
 }
+
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+  .projects {
+    position: relative;
+    left: 75px;
+    h1 {
+      position: static;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .projects {
+    position: relative;
+    left: 150px;
+
+    h1 {
+      font-size: 50px;
+      position: static;
+    }
+    ul {
+      flex-direction: column;
+      width: auto;
+      li {
+        h3 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 20px;
+        }
+        a {
+          font-size: 20px;
+        }
+        img {
+          width: 45px;
+          height: 45px;
+        }
+      }
+    }
+  }
+}

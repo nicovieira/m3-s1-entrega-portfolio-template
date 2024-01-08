@@ -1,4 +1,5 @@
 import styles from "./ProjectCard.module.scss";
+import gitlogo from "../../../../assets/git-icon.png";
 
 export const ProjectCard = ({ project }) => {
   return (
@@ -6,7 +7,7 @@ export const ProjectCard = ({ project }) => {
       <h3>{project.name}</h3>
       <p>{project.description}</p>
       <a href="#">Saiba mais</a>
-      <img src="src/assets/git-icon.png" alt="" />
+      <img src={gitlogo} alt="git-logo" />
     </li>
   );
 };

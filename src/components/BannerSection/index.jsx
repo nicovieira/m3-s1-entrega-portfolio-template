@@ -1,5 +1,6 @@
 import { user } from "../../data/user";
 import styles from "./Banner.module.scss";
+import banner from "../../assets/banner-img.png";
 
 export const BannerSection = ({ user }) => {
   return (
@@ -10,7 +11,7 @@ export const BannerSection = ({ user }) => {
         <p>Uma frase interessante sobre mim</p>
         <button>Saiba Mais</button>
       </div>
-      <img src="src/assets/banner-img.png" alt="banner" />
+      <img src={banner} alt="banner" />
     </section>
   );
 };

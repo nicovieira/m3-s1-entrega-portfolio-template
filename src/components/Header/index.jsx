@@ -1,9 +1,10 @@
 import styles from "./Header.module.scss";
+import logo from "../../assets/portfolio.png";
 
 export const Header = () => {
   return (
     <header className={styles.header}>
-      <img src="src/assets/portfolio.png" alt="portfolio-logo" />
+      <img src={logo} alt="portfolio-logo" />
       <nav>
         <p>Sobre</p>
         <p>Stack</p>
